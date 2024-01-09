@@ -7,8 +7,10 @@ module.exports = {
       },
       colors: {
         coffee: {
+          50: '#e8d6d0',
           200: '#c89f94',
-          400: '#a25f4b'
+          400: '#a25f4b',
+          600: '#744838'
         }
       },
       keyframes: {
