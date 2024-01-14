@@ -3,15 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.top-menu-expand {
+.custom-top-menu-expand {
   @apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
 }
 
-.top-menu-item {
+.custom-top-menu-item {
   @apply py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
 }
 
-.top-menu-item-active {
+.custom-top-menu-item-active {
   @apply text-gray-800;
 }
 
@@ -23,12 +23,16 @@
   @apply text-xs text-center rounded-full px-1.5;
 }
 
-.subheadline {
+.custom-subheadline {
   @apply flex justify-center items-center mb-24;
 }
-.subheadline-deco-line {
+.custom-subheadline-deco-line {
   @apply w-8 h-px bg-gray-200;
 }
-.subheadline-label {
+.custom-subheadline-label {
   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+}
+
+.custom-button {
+  @apply text-center uppercase tracking-widest py-4 px-8 text-xs font-semibold cursor-pointer hover:bg-opacity-90;
 }
