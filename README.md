@@ -13,6 +13,7 @@ Welcome to the Coffee Page repository! Explore the rich world of coffee with a c
 
 - HTML
 - TailwindCSS
+- JavaScript
 
 ## Project Status
 
