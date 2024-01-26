@@ -636,16 +636,36 @@ video {
   margin-bottom: 2rem;
 }
 
-.ml-16{
-  margin-left: 4rem;
+.ml-10{
+  margin-left: 2.5rem;
 }
 
 .ml-2{
   margin-left: 0.5rem;
 }
 
+.mr-10{
+  margin-right: 2.5rem;
+}
+
 .mt-8{
   margin-top: 2rem;
+}
+
+.ml-8{
+  margin-left: 2rem;
+}
+
+.mr-0{
+  margin-right: 0px;
+}
+
+.mr-4{
+  margin-right: 1rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
 }
 
 .flex{
@@ -708,10 +728,6 @@ video {
   max-height: 45px;
 }
 
-.min-h-\[370px\]{
-  min-height: 370px;
-}
-
 .min-h-\[350px\]{
   min-height: 350px;
 }
@@ -751,14 +767,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[300px\]{
-  width: 300px;
-}
-
-.w-\[440px\]{
-  width: 440px;
 }
 
 .max-w-\[80\%\]{
@@ -852,14 +860,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-4{
-  gap: 1rem;
-}
-
-.gap-80{
-  gap: 20rem;
 }
 
 .overflow-x-hidden{
@@ -976,10 +976,6 @@ video {
   background-image: url('./img/story_03.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/coffee\.gif\'\)\]{
-  background-image: url('./img/coffee.gif');
-}
-
 .bg-cover{
   background-size: cover;
 }
@@ -1034,22 +1030,22 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-24{
   padding-bottom: 6rem;
 }
 
-.pb-32{
-  padding-bottom: 8rem;
+.pr-2{
+  padding-right: 0.5rem;
 }
 
 .text-left{
@@ -1485,6 +1481,14 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:ml-16{
+    margin-left: 4rem;
+  }
+
+  .sm\:mr-0{
+    margin-right: 0px;
+  }
+
   .sm\:h-\[540px\]{
     height: 540px;
   }
@@ -1493,14 +1497,18 @@ video {
     flex-direction: row;
   }
 
-  .sm\:px-16{
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .sm\:items-center{
+    align-items: center;
   }
 
   .sm\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1548,15 +1556,6 @@ video {
 
   .md\:gap-8{
     gap: 2rem;
-  }
-
-  .md\:gap-4{
-    gap: 1rem;
-  }
-
-  .md\:px-32{
-    padding-left: 8rem;
-    padding-right: 8rem;
   }
 
   .md\:text-left{
@@ -1613,35 +1612,13 @@ video {
     gap: 2rem;
   }
 
-  .lg\:gap-40{
-    gap: 10rem;
-  }
-
-  .lg\:px-64{
-    padding-left: 16rem;
-    padding-right: 16rem;
-  }
-
   .lg\:pl-8{
     padding-left: 2rem;
-  }
-
-  .lg\:text-left{
-    text-align: left;
-  }
-
-  .lg\:text-center{
-    text-align: center;
   }
 }
 
 @media (min-width: 1280px){
   .xl\:w-\[65\%\]{
     width: 65%;
-  }
-
-  .xl\:px-96{
-    padding-left: 24rem;
-    padding-right: 24rem;
   }
 }
