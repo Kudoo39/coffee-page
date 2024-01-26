@@ -8,6 +8,7 @@ Welcome to the Coffee Page repository! Explore the rich world of coffee with a c
 
 - **Featured Blends:** Discover a selection of exceptional coffee blends with unique flavors.
 - **Aesthetic Design:** Enjoy a visually appealing and user-friendly interface.
+- [Live Demo](https://coffee-styles.netlify.app/)
 
 ## Technologies Used
 
