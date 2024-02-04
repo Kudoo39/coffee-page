@@ -16,6 +16,3 @@ Welcome to the Coffee Page repository! Explore the rich world of coffee with a c
 - TailwindCSS
 - JavaScript
 
-## Project Status
-
-The Coffee Page is currently under development!
